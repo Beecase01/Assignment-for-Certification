@@ -1,0 +1,189 @@
+{
+	"info": {
+		"_postman_id": "700387a2-2638-43c6-8564-67ef5ee9e6ed",
+		"name": "firstClass",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44411579",
+		"_collection_link": "https://bikeshshrestha.postman.co/workspace/Bikesh-Shrestha's-Workspace~d68164b2-2629-4d96-81d6-32dbae6afaba/collection/44411579-700387a2-2638-43c6-8564-67ef5ee9e6ed?action=share&source=collection_link&creator=44411579"
+	},
+	"item": [
+		{
+			"name": "Get Status",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status Code 200:\",function(){\r",
+							"    pm.expect(pm.response.to.have.status(200))\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{accesstoken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/status",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List of Book",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Expected Code: 200. Achieved Code: \"+ pm.response.code,function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"let type = pm.request.url.query.get(\"type\");\r",
+							"let count = Number(pm.request.url.query.get(\"limit\"));\r",
+							"\r",
+							"pm.test(`Expected List: ${type}`,function(){\r",
+							"    let responseData = pm.response.json();\r",
+							"    let filter = responseData.every(item=> item.type===type);\r",
+							"    pm.expect(filter).to.be.true;  \r",
+							"    pm.test(\"Expected Limits: \"+count+\" Achieved Limit: \"+responseData.length,function(){\r",
+							"        if(responseData.length<count){\r",
+							"            pm.test(\"Item available is less than requested\",function(){\r",
+							"                pm.expect(count).to.be.above(responseData.length);\r",
+							"        });\r",
+							"        }\r",
+							"        else{\r",
+							"        pm.expect(count).to.equal(responseData.length);\r",
+							"        }\r",
+							"    }); \r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{accesstoken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/books?type=fiction&limit=10",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"books"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "fiction"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{accesstoken}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://simple-books-api.glitch.me",
+			"type": "string"
+		},
+		{
+			"key": "accesstoken",
+			"value": "",
+			"type": "default"
+		}
+	]
+}
