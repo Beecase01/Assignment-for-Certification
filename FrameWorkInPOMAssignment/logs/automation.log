@@ -1,0 +1,74 @@
+08:28:22.759 [main] INFO  testCases.T_001_InvalidLoginTest.invalidLoginTest(T_001_InvalidLoginTest.java:14)oggger - *** Starting T_001_InvalidLoginTest ***
+08:28:22.761 [main] INFO  testCases.T_001_InvalidLoginTest.invalidLoginTest(T_001_InvalidLoginTest.java:17)oggger - *** Receiving error message ***
+08:39:20.567 [main] INFO  testCases.T_001_InvalidLoginTest.invalidLoginTest(T_001_InvalidLoginTest.java:14)oggger - *** Starting T_001_InvalidLoginTest ***
+08:39:20.569 [main] INFO  testCases.T_001_InvalidLoginTest.invalidLoginTest(T_001_InvalidLoginTest.java:17)oggger - *** Receiving error message ***
+08:39:20.611 [main] INFO  testCases.T_001_InvalidLoginTest.invalidLoginTest(T_001_InvalidLoginTest.java:20)oggger - *** Checking fail for Locked user ***
+08:39:27.815 [main] INFO  testCases.T_002_ValidLoginTest.validLoginTest(T_002_ValidLoginTest.java:12)oggger - *** Starting T_002_ValidLoginTest ***
+08:39:27.815 [main] INFO  testCases.T_002_ValidLoginTest.validLoginTest(T_002_ValidLoginTest.java:14)oggger - *** Receiving current Url ***
+08:39:27.820 [main] INFO  testCases.T_002_ValidLoginTest.validLoginTest(T_002_ValidLoginTest.java:17)oggger - *** Confirming redirection to Inventory Page ***
+08:39:30.769 [main] INFO  testCases.T_003_001SortByName.sortByNameDes(T_003_001SortByName.java:23)oggger - *** Starting T_003_001SortByName ***
+08:39:30.774 [main] INFO  testCases.T_003_001SortByName.sortByNameDes(T_003_001SortByName.java:26)oggger - *** Collecting Product List & sortiing them ***
+08:39:30.869 [main] INFO  testCases.T_003_001SortByName.sortByNameDes(T_003_001SortByName.java:30)oggger - *** Using sort button on page & collecting the list again ***
+08:39:31.118 [main] INFO  testCases.T_003_001SortByName.sortByNameDes(T_003_001SortByName.java:34)oggger - *** Comparing sorted list with result after using sort function ***
+08:39:33.792 [main] INFO  testCases.T_003_002SortByPrice.sortByPriceLtoH(T_003_002SortByPrice.java:15)oggger - *** Starting T_003_002SortByPrice ***
+08:39:33.792 [main] INFO  testCases.T_003_002SortByPrice.sortByPriceLtoH(T_003_002SortByPrice.java:18)oggger - *** Collecting Item prices and sorting them manually ***
+08:39:33.863 [main] INFO  testCases.T_003_002SortByPrice.sortByPriceLtoH(T_003_002SortByPrice.java:22)oggger - *** Using sort functionality & receiving the list again ***
+08:39:34.104 [main] INFO  testCases.T_003_002SortByPrice.sortByPriceLtoH(T_003_002SortByPrice.java:26)oggger - *** Comparing two list ***
+08:39:36.805 [main] INFO  testCases.T_004ItemsOnCartTest.cartTest(T_004ItemsOnCartTest.java:14)oggger - *** Starting T_004ItemsOnCartTest ***
+08:39:36.806 [main] INFO  testCases.T_004ItemsOnCartTest.cartTest(T_004ItemsOnCartTest.java:17)oggger - *** Adding items in cart and receiving selected items from product list ***
+08:39:37.133 [main] INFO  testCases.T_004ItemsOnCartTest.cartTest(T_004ItemsOnCartTest.java:20)oggger - *** Directing to Cart page and receiving the list of added items ***
+08:39:37.554 [main] INFO  testCases.T_004ItemsOnCartTest.cartTest(T_004ItemsOnCartTest.java:23)oggger - *** Comparing if selected items are visible there ***
+08:39:40.135 [main] INFO  testCases.T_005CheckOutTest.checkOutTest(T_005CheckOutTest.java:11)oggger - *** Starting T_005CheckOutTest ***
+08:39:40.137 [main] INFO  testCases.T_005CheckOutTest.checkOutTest(T_005CheckOutTest.java:14)oggger - *** Adding items to check using CheckOut page ***
+08:39:40.367 [main] INFO  testCases.T_005CheckOutTest.checkOutTest(T_005CheckOutTest.java:17)oggger - *** Directing to Cart Page ***
+08:39:40.531 [main] INFO  testCases.T_005CheckOutTest.checkOutTest(T_005CheckOutTest.java:20)oggger - *** Sending details for Checkout ***
+08:39:41.945 [main] INFO  testCases.T_005CheckOutTest.checkOutTest(T_005CheckOutTest.java:23)oggger - *** Receiving the final message ***
+08:39:41.961 [main] INFO  testCases.T_005CheckOutTest.checkOutTest(T_005CheckOutTest.java:26)oggger - *** Checking if final message contains verification ***
+09:04:17.218 [main] INFO  testCases.T_005CheckOutTest.checkOutTest(T_005CheckOutTest.java:11)oggger - *** Starting T_005CheckOutTest ***
+09:04:17.226 [main] INFO  testCases.T_005CheckOutTest.checkOutTest(T_005CheckOutTest.java:14)oggger - *** Adding items to check using CheckOut page ***
+09:04:17.484 [main] INFO  testCases.T_005CheckOutTest.checkOutTest(T_005CheckOutTest.java:17)oggger - *** Directing to Cart Page ***
+09:04:17.888 [main] INFO  testCases.T_005CheckOutTest.checkOutTest(T_005CheckOutTest.java:20)oggger - *** Sending details for Checkout ***
+09:04:19.270 [main] INFO  testCases.T_005CheckOutTest.checkOutTest(T_005CheckOutTest.java:23)oggger - *** Receiving the final message ***
+09:04:19.289 [main] INFO  testCases.T_005CheckOutTest.checkOutTest(T_005CheckOutTest.java:26)oggger - *** Checking if final message contains verification ***
+09:04:21.895 [main] INFO  testCases.T_003_001SortByName.sortByNameDes(T_003_001SortByName.java:23)oggger - *** Starting T_003_001SortByName ***
+09:04:21.897 [main] INFO  testCases.T_003_001SortByName.sortByNameDes(T_003_001SortByName.java:26)oggger - *** Collecting Product List & sortiing them ***
+09:04:21.982 [main] INFO  testCases.T_003_001SortByName.sortByNameDes(T_003_001SortByName.java:30)oggger - *** Using sort button on page & collecting the list again ***
+09:04:22.211 [main] INFO  testCases.T_003_001SortByName.sortByNameDes(T_003_001SortByName.java:34)oggger - *** Comparing sorted list with result after using sort function ***
+09:04:24.791 [main] INFO  testCases.T_002_ValidLoginTest.validLoginTest(T_002_ValidLoginTest.java:12)oggger - *** Starting T_002_ValidLoginTest ***
+09:04:24.792 [main] INFO  testCases.T_002_ValidLoginTest.validLoginTest(T_002_ValidLoginTest.java:14)oggger - *** Receiving current Url ***
+09:04:24.796 [main] INFO  testCases.T_002_ValidLoginTest.validLoginTest(T_002_ValidLoginTest.java:17)oggger - *** Confirming redirection to Inventory Page ***
+09:04:27.365 [main] INFO  testCases.T_003_002SortByPrice.sortByPriceLtoH(T_003_002SortByPrice.java:15)oggger - *** Starting T_003_002SortByPrice ***
+09:04:27.365 [main] INFO  testCases.T_003_002SortByPrice.sortByPriceLtoH(T_003_002SortByPrice.java:18)oggger - *** Collecting Item prices and sorting them manually ***
+09:04:27.443 [main] INFO  testCases.T_003_002SortByPrice.sortByPriceLtoH(T_003_002SortByPrice.java:22)oggger - *** Using sort functionality & receiving the list again ***
+09:04:27.693 [main] INFO  testCases.T_003_002SortByPrice.sortByPriceLtoH(T_003_002SortByPrice.java:26)oggger - *** Comparing two list ***
+09:04:30.291 [main] INFO  testCases.T_004ItemsOnCartTest.cartTest(T_004ItemsOnCartTest.java:14)oggger - *** Starting T_004ItemsOnCartTest ***
+09:04:30.292 [main] INFO  testCases.T_004ItemsOnCartTest.cartTest(T_004ItemsOnCartTest.java:17)oggger - *** Adding items in cart and receiving selected items from product list ***
+09:04:30.572 [main] INFO  testCases.T_004ItemsOnCartTest.cartTest(T_004ItemsOnCartTest.java:20)oggger - *** Directing to Cart page and receiving the list of added items ***
+09:04:30.752 [main] INFO  testCases.T_004ItemsOnCartTest.cartTest(T_004ItemsOnCartTest.java:23)oggger - *** Comparing if selected items are visible there ***
+09:04:33.029 [main] INFO  testCases.T_001_InvalidLoginTest.invalidLoginTest(T_001_InvalidLoginTest.java:14)oggger - *** Starting T_001_InvalidLoginTest ***
+09:04:33.029 [main] INFO  testCases.T_001_InvalidLoginTest.invalidLoginTest(T_001_InvalidLoginTest.java:17)oggger - *** Receiving error message ***
+09:04:33.056 [main] INFO  testCases.T_001_InvalidLoginTest.invalidLoginTest(T_001_InvalidLoginTest.java:20)oggger - *** Checking fail for Locked user ***
+09:07:18.142 [main] INFO  testCases.T_005CheckOutTest.checkOutTest(T_005CheckOutTest.java:11)oggger - *** Starting T_005CheckOutTest ***
+09:07:18.149 [main] INFO  testCases.T_005CheckOutTest.checkOutTest(T_005CheckOutTest.java:14)oggger - *** Adding items to check using CheckOut page ***
+09:07:18.388 [main] INFO  testCases.T_005CheckOutTest.checkOutTest(T_005CheckOutTest.java:17)oggger - *** Directing to Cart Page ***
+09:07:18.956 [main] INFO  testCases.T_005CheckOutTest.checkOutTest(T_005CheckOutTest.java:20)oggger - *** Sending details for Checkout ***
+09:07:20.259 [main] INFO  testCases.T_005CheckOutTest.checkOutTest(T_005CheckOutTest.java:23)oggger - *** Receiving the final message ***
+09:07:20.278 [main] INFO  testCases.T_005CheckOutTest.checkOutTest(T_005CheckOutTest.java:26)oggger - *** Checking if final message contains verification ***
+09:07:22.838 [main] INFO  testCases.T_003_001SortByName.sortByNameDes(T_003_001SortByName.java:23)oggger - *** Starting T_003_001SortByName ***
+09:07:22.839 [main] INFO  testCases.T_003_001SortByName.sortByNameDes(T_003_001SortByName.java:26)oggger - *** Collecting Product List & sortiing them ***
+09:07:22.933 [main] INFO  testCases.T_003_001SortByName.sortByNameDes(T_003_001SortByName.java:30)oggger - *** Using sort button on page & collecting the list again ***
+09:07:23.152 [main] INFO  testCases.T_003_001SortByName.sortByNameDes(T_003_001SortByName.java:34)oggger - *** Comparing sorted list with result after using sort function ***
+09:07:25.701 [main] INFO  testCases.T_002_ValidLoginTest.validLoginTest(T_002_ValidLoginTest.java:12)oggger - *** Starting T_002_ValidLoginTest ***
+09:07:25.702 [main] INFO  testCases.T_002_ValidLoginTest.validLoginTest(T_002_ValidLoginTest.java:14)oggger - *** Receiving current Url ***
+09:07:25.706 [main] INFO  testCases.T_002_ValidLoginTest.validLoginTest(T_002_ValidLoginTest.java:17)oggger - *** Confirming redirection to Inventory Page ***
+09:07:28.243 [main] INFO  testCases.T_003_002SortByPrice.sortByPriceLtoH(T_003_002SortByPrice.java:15)oggger - *** Starting T_003_002SortByPrice ***
+09:07:28.243 [main] INFO  testCases.T_003_002SortByPrice.sortByPriceLtoH(T_003_002SortByPrice.java:18)oggger - *** Collecting Item prices and sorting them manually ***
+09:07:28.325 [main] INFO  testCases.T_003_002SortByPrice.sortByPriceLtoH(T_003_002SortByPrice.java:22)oggger - *** Using sort functionality & receiving the list again ***
+09:07:28.556 [main] INFO  testCases.T_003_002SortByPrice.sortByPriceLtoH(T_003_002SortByPrice.java:26)oggger - *** Comparing two list ***
+09:07:31.085 [main] INFO  testCases.T_004ItemsOnCartTest.cartTest(T_004ItemsOnCartTest.java:14)oggger - *** Starting T_004ItemsOnCartTest ***
+09:07:31.086 [main] INFO  testCases.T_004ItemsOnCartTest.cartTest(T_004ItemsOnCartTest.java:17)oggger - *** Adding items in cart and receiving selected items from product list ***
+09:07:31.351 [main] INFO  testCases.T_004ItemsOnCartTest.cartTest(T_004ItemsOnCartTest.java:20)oggger - *** Directing to Cart page and receiving the list of added items ***
+09:07:31.519 [main] INFO  testCases.T_004ItemsOnCartTest.cartTest(T_004ItemsOnCartTest.java:23)oggger - *** Comparing if selected items are visible there ***
+09:07:33.852 [main] INFO  testCases.T_001_InvalidLoginTest.invalidLoginTest(T_001_InvalidLoginTest.java:14)oggger - *** Starting T_001_InvalidLoginTest ***
+09:07:33.852 [main] INFO  testCases.T_001_InvalidLoginTest.invalidLoginTest(T_001_InvalidLoginTest.java:17)oggger - *** Receiving error message ***
+09:07:33.879 [main] INFO  testCases.T_001_InvalidLoginTest.invalidLoginTest(T_001_InvalidLoginTest.java:20)oggger - *** Checking fail for Locked user ***
